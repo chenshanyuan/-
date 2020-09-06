@@ -11,7 +11,7 @@ public class MyConfig {
         System.out.println("myconfig 初始化");
     }
     public String show(){
-        System.out.println("myconfig-------------v1分支--------");
+        System.out.println("myconfig-------------master分支--------");
         return "myconfig";
     }
 }
