@@ -1,7 +1,5 @@
 package com.example.mail.springbootmaindemo.config;
 
-import org.springframework.stereotype.Component;
-
 /**
  * @Author chen
  * @description
@@ -13,7 +11,7 @@ public class MyConfig {
         System.out.println("myconfig 初始化");
     }
     public String show(){
-        System.out.println("myconfig---------------------");
+        System.out.println("myconfig-------------v1分支--------");
         return "myconfig";
     }
 }
